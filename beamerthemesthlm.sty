@@ -211,7 +211,7 @@ xrightmargin=0.5em
     \fi%
     \ifx\insertdate\@empty%
     \else%
-    {\usebeamerfont{date}\usebeamercolor[fg]{date}Updated: \insertdate\par\small{\jobname}\par}%
+    {\usebeamerfont{date}\usebeamercolor[fg]{date}\insertdate\par}%
     \fi%
     \ifx\insertinstitut\@empty%
     \else%
@@ -219,7 +219,7 @@ xrightmargin=0.5em
     {\usebeamerfont{institute}\usebeamercolor[fg]{institute}\insertinstitute\par}%
     \fi%
     \vfill
- 	\hfill \includegraphics[height=10mm]{stockholmstad} \hspace{5mm} \includegraphics[height=10mm]{issr} \par
+ 	\hfill \includegraphics[height=10mm]{taulogo} \par
     \vspace*{5mm}
   \end{minipage}
 }
@@ -330,7 +330,7 @@ xrightmargin=0.5em
 \setbeamertemplate{footline}{
 \hbox{
 \begin{beamercolorbox}[wd=0.25\textwidth,dp=1.5ex,leftskip=0.3cm,rightskip=0.3cm]{structure}
-\includegraphics[width=0.25\textwidth]{stockholmstad}
+\includegraphics[width=0.15\textwidth]{taulogo}
 \end{beamercolorbox}
 \begin{beamercolorbox}[wd=0.75\textwidth, dp=1.5ex,leftskip=0.3cm,rightskip=0.3cm plus1fil]{structure}
 \usebeamerfont{page number in head/foot}
